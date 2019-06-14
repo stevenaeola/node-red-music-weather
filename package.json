@@ -2,7 +2,10 @@
     "name": "weather",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-node-darksky": "0.1.18",
+        "node-red-contrib-music": "1.3.3"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
